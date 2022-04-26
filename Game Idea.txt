@@ -2,3 +2,4 @@ The goal of the game is to silence a bunch of loud and noisy musicians so that y
 
 Story: the player goes to sleep but there are loud noises and music causing him to wake up in his sleep as a wild west cowboy on a mission to silence the music and return to the soft melody
 Gameplay: a first person shooter where you must search wild west enviroments for music/noise makers and shoot them to silence them
+challenge: the challenge is to finish the level as fast as possible where the noise makers spawn in random but set locations
