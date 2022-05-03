@@ -7,9 +7,11 @@ public class NoiseMakerSpawner : MonoBehaviour
     public int noiseMakersToSpawn;
     public List<GameObject> spawnPoints;
     public List<GameObject> noiseMakers;
+    private GameManger gameManger;
     // Start is called before the first frame update
     void Start()
     {
+        gameManger = this.GetComponent<GameManger>();
         if(noiseMakersToSpawn > spawnPoints.Count)
         {
             noiseMakersToSpawn = spawnPoints.Count;
@@ -20,7 +22,8 @@ public class NoiseMakerSpawner : MonoBehaviour
             spawnPoints.Remove(point);
             GameObject noiseMaker = noiseMakers[Random.Range(0, noiseMakers.Count)];
 
-            Instantiate(noiseMaker, point.transform.position, Quaternion.identity);
+            GameObject noiseMakerInst = Instantiate(noiseMaker, point.transform.position, Quaternion.identity);
+            gameManger.noiseMakers.Add(noiseMakerInst);
         }   
     }
 }
