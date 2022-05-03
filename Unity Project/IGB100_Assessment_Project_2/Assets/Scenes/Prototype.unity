@@ -3907,7 +3907,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   noiseMakerTag: NoiseMaker
-  shootingRange: 50
+  shootingRange: 500
 --- !u!1 &789497818
 GameObject:
   m_ObjectHideFlags: 0
@@ -6135,6 +6135,7 @@ GameObject:
   - component: {fileID: 1210579800}
   - component: {fileID: 1210579799}
   - component: {fileID: 1210579798}
+  - component: {fileID: 1210579801}
   m_Layer: 0
   m_Name: GameManger
   m_TagString: Untagged
@@ -6164,7 +6165,12 @@ MonoBehaviour:
   - {fileID: 528401943}
   - {fileID: 288923202}
   noiseMakers:
-  - {fileID: 8174548596057919187, guid: c529e89656223a847a4c93ef3549b315, type: 3}
+  - {fileID: 4058852544043027824, guid: a5799b1a03650414799a42e1efc0f1d5, type: 3}
+  - {fileID: 2584158716069790490, guid: 5a87c66b980be1840ac8f5c06996a217, type: 3}
+  - {fileID: 6892551965951561338, guid: 2af76fd3679ea844eaaceb05747fe9da, type: 3}
+  - {fileID: 1395688538649250556, guid: 609325d10749e804c89ba891ded58420, type: 3}
+  - {fileID: 523316830084141838, guid: a54bca5564224f540831ca1139270d72, type: 3}
+  - {fileID: 4026671269233975386, guid: f592be4d02bd7bf4b8af159c028d9c85, type: 3}
 --- !u!114 &1210579799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6192,6 +6198,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1210579801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210579797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ba40707e7eafb4081de8d4d5495c59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inMenu: 0
 --- !u!1 &1213098304
 GameObject:
   m_ObjectHideFlags: 0
