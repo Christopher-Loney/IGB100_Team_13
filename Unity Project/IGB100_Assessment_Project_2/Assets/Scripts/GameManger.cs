@@ -7,6 +7,7 @@ public class GameManger : MonoBehaviour
 {
     public List<GameObject> noiseMakers;
     public GameObject player;
+    public string nextScene;
     private CursorSettings CursorSettings;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class GameManger : MonoBehaviour
     {
         if(noiseMakers.Count < 1)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(nextScene);
         }
         if(Input.GetButtonDown("Cancel"))
         {

@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Prototype.unity
-    guid: 23fea3bcf0673b34582920dbf35f5e93
+    path: Assets/Scenes/Main Menu.unity
+    guid: 57cc8b4d75cd7d140b0c3e6b0a9c2425
+  - enabled: 1
+    path: Assets/Scenes/HighNoon Scene.unity
+    guid: 348e0f4c33e31b24e8da3b92150b1b0b
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 991965ebdbf679745bdb8c90cca73a86, type: 2}

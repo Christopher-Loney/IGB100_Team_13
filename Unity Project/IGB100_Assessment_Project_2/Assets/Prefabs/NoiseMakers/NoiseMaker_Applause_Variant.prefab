@@ -51,6 +51,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2591957537866321614, guid: c529e89656223a847a4c93ef3549b315, type: 3}
+      propertyPath: hoverHight
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2591957537866321614, guid: c529e89656223a847a4c93ef3549b315, type: 3}
+      propertyPath: rotationSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4113094526895270559, guid: c529e89656223a847a4c93ef3549b315, type: 3}
       propertyPath: m_audioClip
       value: 

@@ -32,7 +32,8 @@ public class Shooting : MonoBehaviour
                 if (hit.collider.gameObject.tag == noiseMakerTag)
                 {
                     gameManger.noiseMakers.Remove(hit.collider.gameObject);
-                    Destroy(hit.collider.gameObject);
+                    GameObject parent = hit.collider.transform.parent.gameObject;
+                    Destroy(parent);
                 }
                 
             }
