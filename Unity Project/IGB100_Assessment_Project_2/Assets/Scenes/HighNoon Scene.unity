@@ -6185,6 +6185,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 760927712}
     - target: {fileID: 4968579957040538253, guid: 2c48b634dfa08604091e55fd2c0599eb, type: 3}
+      propertyPath: nextScene
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4968579957040538253, guid: 2c48b634dfa08604091e55fd2c0599eb, type: 3}
       propertyPath: timerText
       value: 
       objectReference: {fileID: 1218006302}

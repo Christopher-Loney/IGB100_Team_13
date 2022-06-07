@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HighNoon Scene.unity
     guid: 348e0f4c33e31b24e8da3b92150b1b0b
+  - enabled: 1
+    path: Assets/Scenes/Ranch.unity
+    guid: ed015366034d00f4aa5f0d2d2e6efe82
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 991965ebdbf679745bdb8c90cca73a86, type: 2}

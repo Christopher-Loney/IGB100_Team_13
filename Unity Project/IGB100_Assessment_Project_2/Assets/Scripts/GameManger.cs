@@ -8,10 +8,11 @@ public class GameManger : MonoBehaviour
 {
     public List<GameObject> noiseMakers;
     public GameObject player;
-    public string nextScene;
+    public int nextScene;
     [Tooltip("time to complete the level in seconds")]
     public float timer;
     public Text timerText;
+    public List<Image> noiseIcons;
     private CursorSettings CursorSettings;
     // Start is called before the first frame update
     void Start()
@@ -30,6 +31,10 @@ public class GameManger : MonoBehaviour
         int minutes = (int)timer / 60;
         int seconds = (int)timer % 60;
         timerText.text = minutes + ":" + seconds;
+        if(noiseMakers.Count < 6)
+        {
+            noiseIcons[noiseMakers.Count].gameObject.SetActive(false);
+        }
         if(noiseMakers.Count < 1)
         {
             SceneManager.LoadScene(nextScene);
@@ -38,5 +43,6 @@ public class GameManger : MonoBehaviour
         {
             CursorSettings.inMenu = !CursorSettings.inMenu;
         }
+        Debug.Log(noiseMakers.Count);
     }
 }

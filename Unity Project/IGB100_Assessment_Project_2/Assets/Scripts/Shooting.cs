@@ -57,8 +57,8 @@ public class Shooting : MonoBehaviour
                 Debug.Log(hit.collider.name);
                 if (hit.collider.gameObject.tag == noiseMakerTag)
                 {
-                    gameManger.noiseMakers.Remove(hit.collider.gameObject);
                     GameObject parent = hit.collider.transform.parent.gameObject;
+                    gameManger.noiseMakers.Remove(parent);
                     Destroy(parent);
                 }
                 
